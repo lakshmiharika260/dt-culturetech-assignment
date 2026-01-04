@@ -1,117 +1,96 @@
-# Clinic Inventory Statistical Audit (Daily Control Process)
+# Task 1: Clinic Inventory Statistical Audit
 
-## Overview
-This repository documents a **simple, practical inventory audit process** designed for a busy clinic environment.
+## How I Thought About This
+When I set this up, I pictured exactly how our clinic works—always busy, with staff switching between patients and paperwork.
 
-The goal is to **catch small stock and billing errors early**—before they grow into month-end discrepancies—without burdening staff or disrupting patient care.
+I knew we didn’t need something complicated. We needed a **simple, repeatable habit** that stops small mistakes before they turn into big problems at the end of the month.
 
-The entire daily process takes **20–30 minutes** and focuses only on **high-impact medicines**, rather than attempting full daily reconciliation (which is unrealistic in a high-volume clinic).
+So I built this daily check to take **only 20–30 minutes** and focus only on **what really matters**.
 
----
-
-## Why This Approach
-Clinics are fast-paced; staff constantly switch between patients and paperwork.
-
-- Full daily reconciliation consumes too much time and is often skipped  
-- Small daily errors compound into major monthly issues  
-
-This process prioritizes:
-- **Consistency**
-- **Low effort**
-- **Early detection**
-- **Staff-friendly corrections**
+I intentionally avoided full daily reconciliation because the staff time it would consume is not worth the benefit, and the process would eventually be skipped in a busy clinic.
 
 ---
 
-## Step 1: Selecting High-Risk Medicines
-Instead of tracking all medicines, I focus only on those most likely to cause errors.
+## Step 1: How I Pick Which Medicines to Watch
+I started by asking: **Which medicines cause the most confusion or errors?**
 
-**Selection criteria:**
-- Used very frequently (small errors add up quickly)
-- Similar or shortened names (easy to mix up)
-- Prescribed regularly (billing discipline matters most here)
+I don’t check everything—just the ones that are:
+- Used the most every day (because a tiny mistake adds up fast)
+- Have names that sound alike (easy to mix up when you’re rushed)
+- Prescribed all the time (so we build good billing habits here)
 
-### Current Watch List
-- **Dolo 650** – Often written differently (“Dolo”, “Dolo kind”, etc.)
-- **Azithromycin 500** – Frequently shortened to “Azithro”
-- **Pantoprazole 40** – High-volume medicine; even small slips matter
+### Current Shortlist
+- **Dolo 650** – Everyone writes it differently: “Dolo,” “Dolo kind,” etc.
+- **Azithromycin 500** – Often shortened to “Azithro” on bills
+- **Pantoprazole 40** – Given so often, any slip-up here matters
 
-This list remains stable unless usage patterns change.
+I stick to these unless something changes.
 
 ---
 
-## Step 2: Daily Medicine Name Check (≈10 minutes)
-Every morning, I review the **previous day’s sales** for only the watch-list medicines.
+## Step 2: My Daily Name Check (≈10 minutes)
+Every morning, I pull up **yesterday’s sales** and look only at those high-risk medicines.  
+I scan for what names were actually written on the bills.
+
+### When I Spot a Variation
+- **If it’s new** (e.g., “Dolo fast”)  
+  → I add it to my mapping list so it points to **“Dolo 650”**
+- **If it’s an old mistake again** (e.g., “Azithro”)  
+  → I remind the staff member quietly to use the full name
+
+I don’t make a big deal out of it—just a quick fix and a gentle reminder.
+
+---
+
+## Step 3: My Quick Math Check (≈5–7 minutes)
+For each medicine on my list, I do this simple math:
+
+Opening Stock + New Stock – Total Sold = What Should Be Left
+
+Then I glance at the shelf to see what’s actually there.
+
+### My Tolerance Rule
+- **Within 2%** → No action  
+- **Outside 2%** → Check sales slips the same day  
+
+---
+
+## Step 4: My Random Bill Checks (≈5–10 minutes)
+Each day, I pick **3–5 bills at random** that include my watch-list medicines.
 
 ### What I Check
-- Actual medicine names entered on bills
-- Variations or abbreviations used
+- Was the correct medicine name used?
+- Does the quantity make sense?
 
-### Actions Taken
-- **New variation found** (e.g., “Dolo fast”)  
-  → Added to the mapping list and linked to the correct medicine name  
-
-- **Repeated old mistake** (e.g., “Azithro”)  
-  → Quiet, one-on-one reminder to the staff member  
-
-No public corrections or escalation—just quick fixes and gentle reinforcement.
+Nobody knows which bills I’ll pick—so everyone stays careful on **every bill**.
 
 ---
 
-## Step 3: Quick Stock Math Check (≈5–7 minutes)
-For each watch-list medicine, I apply this formula:
+## Step 5: My Weekly Review (≈15 minutes, once a week)
+I keep a simple log throughout the week.  
+Every Friday, I review it.
 
-Opening Stock + New Stock – Total Sold = Expected Closing Stock
+### Sample Log
 
-I then physically glance at the shelf to compare.
+| Date  | Medicine           | What Happened        | Repeated? |
+|------|--------------------|---------------------|-----------|
+| Aug 1 | Dolo 650           | Written as “Dolo”   | Yes       |
+| Aug 3 | Azithromycin 500   | Qty didn’t match    | No        |
 
-### Tolerance Rule
-- **Within ±2%** → No action  
-- **Beyond ±2%** → Review sales entries the same day  
-
-This prevents overreacting to minor handling differences while still catching real issues early.
-
----
-
-## Step 4: Random Bill Audit (≈5–10 minutes)
-Each day, I randomly select **3–5 bills** that include watch-list medicines.
-
-### What I Verify
-- Correct medicine name used
-- Quantity matches prescription and logic
-
-Because staff don’t know which bills will be checked, accuracy improves across **all billing**, not just the reviewed ones.
+### How I Use This
+- If the same error happens **3 times** → I do a mini-training
+- If errors are scattered → The process itself may need a tweak
 
 ---
 
-## Step 5: Weekly Review (15 minutes, once a week)
-Throughout the week, I maintain a simple issue log.
+## Step 6: My Rule for When to Tell the Doctor
+I handle almost everything myself.
 
-### Sample Log Format
+I only involve the doctor if:
+- There’s **real money missing**
+- The same mistake keeps happening after correction
+- A stock issue could **affect a patient**
 
-| Date  | Medicine           | Issue Observed        | Repeated? |
-|------|--------------------|----------------------|-----------|
-| Aug 1 | Dolo 650           | Written as “Dolo”    | Yes       |
-| Aug 3 | Azithromycin 500   | Quantity mismatch    | No        |
-
-### Weekly Insights
-- Same error **3 times** → Conduct mini-training  
-- Errors scattered → Review or adjust the process itself  
-
-This converts daily observations into actionable improvements.
-
----
-
-## Step 6: When to Escalate to the Doctor
-Most issues are handled independently to avoid unnecessary interruptions.
-
-### Doctor Is Informed Only If:
-- There is **actual financial loss**
-- The same error persists despite corrections
-- A stock issue could **impact patient care**
-
-Otherwise, the doctor remains focused on clinical work.
-
----
+Otherwise, the doctor doesn’t need to know—they can stay focused on patient care.
 
 
