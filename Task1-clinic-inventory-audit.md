@@ -1,4 +1,5 @@
 Clinic Inventory Statistical Audit (Daily Control Process)
+
 Overview
 
 This repository documents a simple, practical inventory audit process designed for a busy clinic environment.
